@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Amaranth:400,700italic);
+/* font-family: 'Amaranth', sans-serif; */
+
+.wrapper {
+	padding: 0 0 0 4%;
+}
+
+body {
+	background-image: url('/img/background.png');
+	background-repeat: no-repeat;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: 400;
+	margin: 0;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+header {
+	color: #831A1A;
+	font-family: 'Amaranth', sans-serif;
+	padding: 1em 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	float: left;
+	height: 10em;
+	width: 10em;
+	border-radius: 50%;
+	border: 8px solid #f8ea72;
+}
+
+header h1 {
+	color: #831A1A;
+	float: left;
+	font-family: 'Amaranth', sans-serif;
+	font-size: 8rem;
+	font-weight: 700;
+	margin: 0 0 0 .4em;
+}
+
+header p {
+	color: #B31D1D;
+	float: right;
+	font-size: 2rem;
+	font-weight: 400;
+	margin: 1.8em 3em 0 0;
+	width: 40%;
+}
+
+header p span {
+	font-size: 2.6rem;
+	font-weight: 700;
+	color: #831A1A;;
+}
+
+main {
+	width: 100%;
+}
+
+main .wrapper {
+	width: 100%;
+}
+
+main .wrapper ul {
+	width: 100%;
+}
+
+main .wrapper ul li {
+	border: 10px solid #b31d1d;
+	float: left;
+	margin: .2em;
+	width: 15.3%;
+}
+
+main .wrapper ul li a {
+	height: auto;
+}
+
+main .wrapper ul li a img {
+	border: 3px solid #FFD700;
+	margin: 0;
+	overflow: hidden;
+	width: 100%;
+}
+
+@media only screen and (max-width: 1500px) {
+	header p {
+		clear: both;
+		display: block;
+		float: left;
+		font-size: 1.5rem;
+		margin: 0 0 0.5em 7em;
+		width: 60%;
+	}
+	
+	header p span {
+		font-size: 1.8rem;
+	}
+	
+	main .wrapper ul li {
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	main .wrapper ul li {
+		width: 40%;
+	}
+}
